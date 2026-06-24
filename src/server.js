@@ -1,4 +1,3 @@
-require('dotenv').config();
 console.log('VARS:', process.env.JOAO_CLIENT_ID, process.env.BASE_URL);
 const express = require('express');
 const axios = require('axios');
